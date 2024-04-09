@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #7F27FF;
+}
+h1{
+    background-color: #081b31;
+    color: #fff;
+    height: 5rem;
+    line-height: 5rem;
+    font-family: 'Sixtyfour', sans-serif;
+}
+.choice:hover
+{
+    opacity: 0.5;
+    cursor: pointer;
+    background-color: #000;
+}
+.choice
+{
+    height: 165px;
+    width: 165px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img
+{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+.choices
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem ;
+}
+
+.score-board
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+#user-score,
+#comp-score
+{
+    font-size: 4rem;
+    color: coral;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.msg-container
+{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+#msg
+{
+    background-color: #081b31;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: inline;
+    font-family: 'Honk', system-ui;
+}
+.names
+{
+    font-family: 'Montserrat Alternates', sans-serif;   
+}
+hr{
+    border-top: 10px dashed lawngreen ;
+}
+marquee
+{
+    color: yellowgreen;
+    font-size: 2rem;
+}
